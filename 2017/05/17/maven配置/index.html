@@ -74,7 +74,7 @@
 <link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="maven," />
 
 
 
@@ -90,15 +90,17 @@
 
 
 
-<meta name="description" content="my homne">
-<meta property="og:type" content="website">
-<meta property="og:title" content="shuping home">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="Maven项目对象模型(POM)，可以通过一小段描述信息来管理项目的构建，报告和文档的软件项目管理工具.Maven 除了以程序构建能力为特色之外，还提供高级项目管理工具。由于 Maven 的缺省构建规则有较高的可重用性，所以常常用两三行 Maven 构建脚本就可以构建简单的项目。由于 Maven 的面向项目的方法，许多 Apache Jakarta 项目发文时使用 Maven，而且公司项目采用 M">
+<meta name="keywords" content="maven">
+<meta property="og:type" content="article">
+<meta property="og:title" content="maven配置">
+<meta property="og:url" content="http://yoursite.com/2017/05/17/maven配置/index.html">
 <meta property="og:site_name" content="shuping home">
-<meta property="og:description" content="my homne">
+<meta property="og:description" content="Maven项目对象模型(POM)，可以通过一小段描述信息来管理项目的构建，报告和文档的软件项目管理工具.Maven 除了以程序构建能力为特色之外，还提供高级项目管理工具。由于 Maven 的缺省构建规则有较高的可重用性，所以常常用两三行 Maven 构建脚本就可以构建简单的项目。由于 Maven 的面向项目的方法，许多 Apache Jakarta 项目发文时使用 Maven，而且公司项目采用 M">
+<meta property="og:updated_time" content="2017-05-17T15:24:04.689Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="shuping home">
-<meta name="twitter:description" content="my homne">
+<meta name="twitter:title" content="maven配置">
+<meta name="twitter:description" content="Maven项目对象模型(POM)，可以通过一小段描述信息来管理项目的构建，报告和文档的软件项目管理工具.Maven 除了以程序构建能力为特色之外，还提供高级项目管理工具。由于 Maven 的缺省构建规则有较高的可重用性，所以常常用两三行 Maven 构建脚本就可以构建简单的项目。由于 Maven 的面向项目的方法，许多 Apache Jakarta 项目发文时使用 Maven，而且公司项目采用 M">
 
 
 
@@ -126,13 +128,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/05/17/maven配置/"/>
 
 
 
 
 
-  <title>shuping home</title>
+  <title>maven配置 | shuping home</title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -158,9 +160,7 @@
     
   
 
-  <div class="container sidebar-position-right 
-   page-home 
- ">
+  <div class="container sidebar-position-right page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -263,9 +263,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -291,9 +291,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/05/17/maven配置/" itemprop="url">maven配置</a></h1>
+          <h1 class="post-title" itemprop="name headline">maven配置</h1>
         
 
         <div class="post-meta">
@@ -362,46 +360,79 @@
       
 
       
+        <p>Maven项目对象模型(POM)，可以通过一小段描述信息来管理项目的构建，报告和文档的软件项目管理工具.<br>Maven 除了以程序构建能力为特色之外，还提供高级项目管理工具。由于 Maven 的缺省构建规则有较高的<br>可重用性，所以常常用两三行 Maven 构建脚本就可以构建简单的项目。由于 Maven 的面向项目的方法，<br>许多 Apache Jakarta 项目发文时使用 Maven，而且公司项目采用 Maven 的比例在持续增长。<br>本篇介绍macbookpro下安装及配置maven环境变量。<br>1.下载maven（<a href="https://maven.apache.org/download.cgi），并解压到某一个目录，" target="_blank" rel="external">https://maven.apache.org/download.cgi），并解压到某一个目录，</a><br>如:/Users/heshiyuan/data/devTools/maven/apache-maven-3.3.9<br>2.打开iterm或者terminal，输入以下命令：<br>vim ~/.bash_profile<br>3.添加以下几行代码，之后保存并推出:wq<br>MAVEN_HOME=/Users/heshiyuan/data/devTools/maven/apache-maven-3.3.9<br>PATH=$MAVEN_HOME/bin:$PATH<br>export MAVEN_HOME<br>export PATH<br>4.输入以下命令使.bash_profile生效<br>source ~/.bash_profile<br>5.输入mvn -version查看是否成功<br>6.如果未安装成功，检查是否先设置了java环境变量<br>JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home<br>PATH=$JAVA_HOME/bin:$PATH<br>export JAVA_HOME<br>export PATH</p>
+
+      
+    </div>
+
+    <div>
+      
         
-          
-            <p>Maven项目对象模型(POM)，可以通过一小段描述信息来管理项目的构建，报告和文档的软件项目管理工具.<br>Maven 除了以程序构建能力为特色之外，还提供高级项目管理工具。由于 Maven 的缺省构建规则有较高的<br>可重用性，所以常常用两三行 Maven 构建脚本就可以构建简单的项目。由于 Maven 的面向项目的方法，<br>许多 Apache Jakarta 项目发文时使用 Maven，而且公司项目采用 Maven 的比例在持续增长。<br>本篇介绍macbookpro下安装及配置maven环境变量。<br>1.下载maven（<a href="https://maven.apache.org/download.cgi），并解压到某一个目录，" target="_blank" rel="external">https://maven.apache.org/download.cgi），并解压到某一个目录，</a><br>如:/Users/heshiyuan/data/devTools/maven/apache-maven-3.3.9<br>2.打开iterm或者terminal，输入以下命令：<br>vim ~/.bash_profile<br>3.添加以下几行代码，之后保存并推出:wq<br>MAVEN_HOME=/Users/heshiyuan/data/devTools/maven/apache-maven-3.3.9<br>PATH=$MAVEN_HOME/bin:$PATH<br>export MAVEN_HOME<br>export PATH<br>4.输入以下命令使.bash_profile生效<br>source ~/.bash_profile<br>5.输入mvn -version查看是否成功<br>6.如果未安装成功，检查是否先设置了java环境变量<br>JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home<br>PATH=$JAVA_HOME/bin:$PATH<br>export JAVA_HOME<br>export PATH</p>
 
-          
+      
+    </div>
+
+    <div>
+      
         
+  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+    <div>����ԭ���������������Ĺ���ʹ�Ҽ�����ܶ�</div>
+    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+      <span>赏</span>
+    </button>
+    <div id="QR" style="display: none;">
+      
+        <div id="wechat" style="display: inline-block">
+          <img id="wechat_qr" src="/uploads/weixinpay.jpg" alt="wangshuping WeChat Pay"/>
+          <p>微信打赏</p>
+        </div>
+      
+      
+        <div id="alipay" style="display: inline-block">
+          <img id="alipay_qr" src="/uploads/alipay.jpg" alt="wangshuping Alipay"/>
+          <p>支付宝打赏</p>
+        </div>
+      
+    </div>
+  </div>
+
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
-      
-    </div>
-
-    <div>
       
     </div>
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/maven/" rel="tag"># maven</a>
+          
+        </div>
+      
+
+      
+        
+      
 
       
 
       
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -409,6 +440,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -618,6 +653,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+
+
 
   
 
